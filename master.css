@@ -1,0 +1,43 @@
+body {
+	text-align: center;
+	overflow: hidden;
+	margin: 0;
+	font-family: 'Sedgwick Ave', cursive;
+	text-rendering: optimizeLegibility;
+}
+
+a {
+	text-decoration: none;
+}
+
+.well {
+	position: relative;
+	overflow: hidden;
+	transition: 1s cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.panel {
+	/* border: 2px solid red; */
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+	font-size: 2em;
+	padding: 1em;
+	box-sizing: border-box;
+	color: black;
+	cursor: default;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.panel:nth-child(1) {
+	background: #2E5266;
+}
+.panel:nth-child(2) {
+	background: #E2C044;
+}
+.panel:nth-child(3) {
+	background: #2E5266;
+}
